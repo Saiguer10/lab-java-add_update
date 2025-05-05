@@ -71,7 +71,7 @@ public class EmployeeController {
                 .orElse(new ResponseEntity<>(HttpStatus.BAD_REQUEST));
     }
 
-    // 7. Update doctor's department
+    // 7. Update doctor's department_
     @PutMapping("/{id}/department")
     public ResponseEntity<Employee> updateDoctorDepartment(
             @PathVariable("id") Integer employeeId,
