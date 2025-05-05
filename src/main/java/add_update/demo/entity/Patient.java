@@ -46,7 +46,7 @@ public class Patient {
         this.admittedBy = admittedBy;
     }
 
-    // Getters and Setters__
+    // Getters and Setters
     public Integer getPatientId() {
         return patientId;
     }
